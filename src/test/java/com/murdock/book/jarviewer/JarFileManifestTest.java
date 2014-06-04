@@ -14,7 +14,7 @@ import org.junit.Test;
  * @author weipeng2k 2013年12月27日 上午10:01:55
  */
 public class JarFileManifestTest {
-	static String file = "/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/rt.jar";
+	static String file = "/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/rt.jar";
 	
 	@Test
 	public void manifest() throws Exception {

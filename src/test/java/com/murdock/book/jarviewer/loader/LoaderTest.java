@@ -14,6 +14,12 @@ public class LoaderTest {
 		System.out.println(ResourceLoader
 				.loadClass("com.murdock.book.jarviewer.loader.LoaderTest$T"));
 	}
+	
+	@Test
+	public void printArray() {
+		System.out.println(int[].class);
+		System.out.println(int[].class.getClassLoader());
+	}
 
 	public static class T {
 
